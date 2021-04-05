@@ -27,7 +27,7 @@ function Skills() {
 
 
 
-    <IconContext.Provider value={{size:"3em" , padding:"2"}}  >
+    <IconContext.Provider value={{size:"4em" , padding:"2"}}  >
 
 
 <div className=' rounded h-100'>

@@ -17,12 +17,12 @@ function Header() {
 
 
 
-  <h1 class="title-text ">Matias Quiroga</h1>
-      <h4 class="title-text ">Programador Full stack</h4>
-      <div class="site-buttons">
-                            <div class="d-flex flex-row flex-wrap mt-2">
-                                <button type="button" class="btn  btn-outline-primary ">Contactame!</button>
-                                <button type="button" class="btn bg-primary ml-3 ">Descargar cv</button>
+  <h1 className="title-text ">Matias Quiroga</h1>
+      <h4 className="title-text ">Programador Full stack</h4>
+      <div className="site-buttons">
+                            <div className="d-flex flex-row flex-wrap mt-2">
+                                <button type="button" className="btn  btn-outline-primary ">Contactame!</button>
+                                <button type="button" className="btn bg-primary ml-3 ">Descargar cv</button>
                             </div>
                     </div>
     

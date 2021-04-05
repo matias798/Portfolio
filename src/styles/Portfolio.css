@@ -38,3 +38,11 @@ background-color: #FDFEFE;
 }
 
 
+
+
+@media (max-width: 640px) {
+    .background{
+        padding-top: 4vh;
+    }
+  }
+
