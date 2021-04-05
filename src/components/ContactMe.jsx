@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ContactMe() {
+function Portfolio() {
   return (
     <div >
         contactame
@@ -8,4 +8,4 @@ function ContactMe() {
   );
 }
 
-export default ContactMe;
+export default Portfolio;
