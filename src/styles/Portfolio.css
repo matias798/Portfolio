@@ -9,7 +9,7 @@ background-color: #FDFEFE;
 .tagg{
 
     border-top: 15vh solid #3498DB;
-    border-right: 100vh solid transparent;
+    border-right: 80vw solid transparent;
     text-align: center;
     flex-wrap: wrap;
 
@@ -37,3 +37,12 @@ background-color: #FDFEFE;
     transition: 0.7s ease;
 }
 
+/*  
+@media(max-width:640px){
+    .tagg{
+    border-right: 300px solid transparent;
+        
+    }
+}
+
+*/
