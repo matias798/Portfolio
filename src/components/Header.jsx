@@ -12,7 +12,7 @@ function Header() {
   return ( 
   <div className='d-flex justify-content-around flex-wrap'>
 
-  <div >
+  <div className='headerText' >
     
 
 

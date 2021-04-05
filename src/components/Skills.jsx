@@ -1,4 +1,6 @@
 import React from 'react';
+import './../styles/Skills.css';
+
 
 import SkillsImage from './../images/skills.gif';
 
@@ -21,7 +23,7 @@ function Skills() {
   return (
     <div className='d-flex justify-content-around flex-wrap mt-4'>
 
-       <div ><img src={SkillsImage} className='PogrammingImage' alt="logo" /> </div>
+       <div ><img src={SkillsImage} className='skillImage' alt="logo" /> </div>
 
 
 

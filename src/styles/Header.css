@@ -8,8 +8,13 @@ position: relative;
 
 }
 
+.headerText{
+    margin-top: 4%;
+
+}
 
 .PogrammingImage{
-    height: 88vh;
+    height: 60vh;
+    max-width: 90%;
 
 }
