@@ -26,8 +26,8 @@ else {
 
   return (
     <div>
-      <Menu />
-      <Header />
+ <Menu />
+ <Header />
 <Portfolio />
       
 <Skills />

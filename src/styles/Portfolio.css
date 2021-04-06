@@ -3,6 +3,7 @@
     height: 90%;
 background-color: #FDFEFE;
  margin-top: 7%;
+ margin-bottom: 7%;
 }
 
 
@@ -10,6 +11,15 @@ background-color: #FDFEFE;
 
     border-top: 15vh solid #3498DB;
     border-right: 80vw solid transparent;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.bottomTagg{
+
+    border-bottom: 15vh solid #3498DB;
+    border-left: 90vw solid transparent;
     text-align: center;
     flex-wrap: wrap;
 

@@ -24,8 +24,14 @@ function Portfolio() {
 <div><img src={PogrammingImage} className='image' alt="logo" /></div>
 <div><img src={PogrammingImage} className='image' alt="logo" /></div>
  
+ 
  </section>
+
+<div className='bottomTagg'></div> 
+ 
     </div>
+
+    
   );
 }
 
