@@ -7,7 +7,7 @@ import './../styles/Portfolio.css'
 
 function Portfolio() {
   return (
-    <div className='background '>
+    <div id="Portfolio" className='background '>
 
 
 <span className='tagg'></span> 

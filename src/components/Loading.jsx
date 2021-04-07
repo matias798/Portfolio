@@ -8,7 +8,7 @@ function Card(props) {
   return (
     <div >
 
-<spinner color= 'primary'/>
+<Spinner color= 'primary'/>
 
 </div>
 

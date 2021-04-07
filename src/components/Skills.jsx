@@ -21,7 +21,7 @@ import { SiBootstrap } from "react-icons/si";
 
 function Skills() {
   return (
-    <div className='d-flex justify-content-around flex-wrap mt-4'>
+    <div id ='Skills'className='d-flex justify-content-around flex-wrap mt-4'>
 
        <div ><img src={SkillsImage} className='skillImage' alt="logo" /> </div>
 
