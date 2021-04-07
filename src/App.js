@@ -12,6 +12,8 @@ import Menu from './components/Menu';
 import Skills from './components/Skills';
 import Header from './components/Header';
 
+// bootrap js
+import 'bootstrap/dist/js/bootstrap.min.js'
 
 
 function App() {
