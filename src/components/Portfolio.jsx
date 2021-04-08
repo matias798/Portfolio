@@ -10,7 +10,6 @@ function Portfolio() {
     <div id="Portfolio" className='background '>
 
 
-<span className='tagg'></span> 
 
 
 <div className='text-center touppercase bolder'>Portafolio</div>

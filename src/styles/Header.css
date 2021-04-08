@@ -1,26 +1,85 @@
+
+
 .Background{
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-background: url( 'https://paperpillar.com/assets/images/hero-guy-1-lg.png');
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25%;
+
+    margin-bottom: 8%;
+}
+
+.HeaderImage{
+    background-image: url('https://paperpillar.com/assets/images/hero-guy-1-lg.png');
+    background-color: #2E86C1;
+background-attachment: scroll;
+background-repeat: no-repeat;
+background-position: center;
 background-size: cover;
-background-color:#3498DB;
-height: 90vh;
-position: relative;
+
 }
 
 .headerText{
-    margin-top: 4%;
+    margin-top: 10%;
 }
 .white{
+height: 2.5em;
     background-color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:#3498DB;}
+    color:#3498DB;
+
+}
 
     .white:hover{
+
         font-weight:500;
         color:#2E86C1;
     border-color:#F0F3F4 ;
     background-color: aliceblue;
 
     }
+
+
+
+    .Github ,.whatsapp, .Gmail ,.LinkedIN{
+   margin: 0.3em;
+        background-color: honeydew;
+        border-radius: 100%;     
+    }
+
+.whatsapp{
+font-weight: bolder;   
+color: #2ECC71;
+}
+
+.Gmail{
+    color:#CD6155;
+}
+ 
+.LinkedIN{
+color: #2E86C1;
+}
+
+@media(max-width:640px){
+
+
+
+
+
+
+.Background{
+    padding-bottom: 8%;
+
+}
+.HeaderImage{
+    background-size: cover;
+padding-bottom: 70%;
+margin-bottom: 18%;
+}
+
+.headerText{
+    padding-top: 15%;
+    font-size: smaller;
+    font-weight: lighter
+}  
+    };

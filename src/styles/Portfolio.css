@@ -2,19 +2,11 @@
     flex-wrap: wrap;
     height: 90%;
 background-color: #FDFEFE;
- margin-top: 12%;
  margin-bottom: 7%;
 }
 
 
-.tagg{
 
-    border-top: 15vh solid #3498DB;
-    border-right: 80vw solid transparent;
-    text-align: center;
-    flex-wrap: wrap;
-
-}
 
 .bottomTagg{
 
