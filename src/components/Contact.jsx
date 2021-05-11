@@ -1,7 +1,18 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 
 function Contact() {
 
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_7gn2tfj', 'template_q2bjryy', e.target, 'user_3YMrfoLjO2lTYtxPe25n9')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
 
 
 
@@ -11,9 +22,9 @@ function Contact() {
         
     
 
-<form>
+<form onSubmit={sendEmail}>
   {/* inputs formularios */}
-    <div class="form-group m-5">
+    <div className="form-group m-5">
 
       {/* Title */}
     <h3 className='PortfolioTitle'>Contactame!!</h3>
@@ -22,7 +33,7 @@ function Contact() {
 
 {/* Email */}
       <div className='m-3'>
-      <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Ingresa tu email"/>
+      <input type="email" className="form-control" name='user_email' aria-describedby="emailHelp" placeholder="Ingresa tu email"/>
       </div>
 {/* /Email */}
 
@@ -30,7 +41,7 @@ function Contact() {
 
 {/* Telefono */}
     <div className='m-3'>
-    <input type="text" class="form-control" id="Telefono"  placeholder="Ingresa tu telefono"/>
+    <input type="text" className="form-control" name='user_phone'  placeholder="Ingresa tu telefono"/>
     </div>
 {/* Telefono */}
 
@@ -38,7 +49,7 @@ function Contact() {
 
 {/* Nombre completo */}
 <div className='m-3'>
-    <input type="text" class="form-control" id="Nombre completo"  placeholder="Ingresa tu nombre completo"/>
+    <input type="text" className="form-control" name='name'  placeholder="Ingresa tu nombre completo"/>
     </div>
 {/* Nombre completo */}
 
@@ -46,16 +57,16 @@ function Contact() {
 
 {/* Nombre completo */}
 <div className='m-3'>
-    <textarea cols='25'  class="form-control" id="Nombre completo"  placeholder="Escribe un mensaje"/>
+    <textarea cols='25'  className="form-control" name='message'  placeholder="Escribe un mensaje"/>
     </div>
 {/* Nombre completo */}
 
 
 
 {/* Button */}
-<div class="d-flex justify-content-end">
+<div className="d-flex justify-content-end">
 
-    <button class="btn btn-secondary m-3" >Success</button>  
+    <button className="btn btn-secondary m-3" >Success</button>  
     </div>
 {/* Button */}
 
