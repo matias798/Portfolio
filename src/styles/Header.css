@@ -4,13 +4,13 @@
     background-color: #ffffff;
     display: flex;
     justify-content: center;
-    padding-bottom: 25%;
+    padding-bottom: 13%;
 
-    margin-bottom: 8%;
+    margin-bottom: 10%;
 }
 
 .HeaderImage{
-    background-image: url('https://paperpillar.com/assets/images/hero-guy-1-lg.png');
+    background-image: url('https://res.cloudinary.com/dsoeo0zhi/image/upload/v1620708536/img_pnejgd.png');
     background-color: #2E86C1;
 background-attachment: scroll;
 background-repeat: no-repeat;
