@@ -5,8 +5,11 @@ background-color: #FDFEFE;
  margin-bottom: 7%;
 }
 
-
-
+.PortfolioTitle{
+  font-family: 'Nunito', sans-serif;
+text-align: center;
+font-weight: 700;
+}
 
 .bottomTagg{
 

@@ -30,28 +30,28 @@ function Header() {
 <h4 className="title-text text-center">Programador web</h4>
       
 {/* Icons */}
-<div className='row justify-content-center'>
-<div className='p-2 whatsapp'><SiWhatsapp/></div>
-<div className='p-2 Github'><SiGithub/></div>
-<div className='p-2 Gmail '><SiGmail/></div>
-<div className='p-2 LinkedIN '><TiSocialLinkedin/></div> 
+<div className='d-flex justify-content-center'>
+<div className='p-3 headerIcons '><SiWhatsapp/></div>
+<div className='p-3 headerIcons '><SiGithub/></div>
+<div className='p-3 headerIcons  '><SiGmail/></div>
+<div className='p-3 headerIcons  '><TiSocialLinkedin/></div> 
 </div>
 {/* /Icons */}
 
 {/* Buttons */}
- <div className="d-flex flex-row flex-wrap">
+ <div className="d-flex flex-row flex-wrap pt-3">
                              
   {/* Contact me button  */}
   <Link className="nav-link" to="Contact" spy={true} smooth={true}>
-  <button type="button" className="btn white " >Contactame!</button>
+  <button type="button" className="btn btn-info " >Contactame!</button>
   </Link>
   {/* /Contact me button  */}
 
   {/* Download cv button  */}
-  <Link className="nav-link" to="Contact" spy={true} smooth={true}>
-   <button type="button" className="btn  white ">Descarga cv</button>
+  <Link className="nav-link " to="Contact" spy={true} smooth={true}>
+   <button type="button" className="btn  btn-info ">Descarga cv</button>
     </Link>
-  
+
   {/* /Download cv button  */}
 
 </div>

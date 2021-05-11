@@ -1,17 +1,15 @@
 
 
 .Background{
-    background-color: #ffffff;
     display: flex;
     justify-content: center;
     padding-bottom: 13%;
-
-    margin-bottom: 10%;
+    background-image: linear-gradient(90deg, #07befa, #474cb1, #e51b75);
 }
 
 .HeaderImage{
     background-image: url('https://res.cloudinary.com/dsoeo0zhi/image/upload/v1620708536/img_pnejgd.png');
-    background-color: #2E86C1;
+    background-color: linear-gradient(90deg, #07befa, #474cb1, #e51b75);
 background-attachment: scroll;
 background-repeat: no-repeat;
 background-position: center;
@@ -21,12 +19,11 @@ background-size: cover;
 
 .headerText{
     margin-top: 10%;
+    font-weight: 700;
+  font-family: 'Nunito', sans-serif;
 }
-.white{
+.headerIcons{
 height: 2.5em;
-    background-color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:#3498DB;
 
 }
 
@@ -41,20 +38,8 @@ height: 2.5em;
 
 
 
-    .Github ,.whatsapp, .Gmail ,.LinkedIN{
-   margin: 0.3em;
-        background-color: honeydew;
-        border-radius: 100%;     
-    }
 
-.whatsapp{
-font-weight: bolder;   
-color: #2ECC71;
-}
 
-.Gmail{
-    color:#CD6155;
-}
  
 .LinkedIN{
 color: #2E86C1;
