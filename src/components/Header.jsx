@@ -1,5 +1,6 @@
-import React from 'react';
 import {Link} from 'react-scroll'
+import React, { useRef, useState } from 'react';
+import Swal from 'sweetalert2'
 
 /* Icons*/
  import { SiWhatsapp } from "react-icons/si";
@@ -19,6 +20,31 @@ import './../styles/Header.css';
 
 
 function Header() {
+
+
+  const [copySuccess, setCopySuccess] = useState('');
+  const textAreaRef = useRef(null);
+
+  function copyToClipboard(e) {
+    textAreaRef.current.select();
+    document.execCommand('copy');
+    
+    // This is just personal preference.
+    // I prefer to not show the whole text area selected.
+    e.target.focus();
+    
+
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      title: 'Copiaste el email!',
+      showConfirmButton: false,
+      timer: 1500
+    })
+
+  };
+
+
   return ( 
 
   <div id='Home' className=' Background HeaderImage'>
@@ -31,10 +57,24 @@ function Header() {
       
 {/* Icons */}
 <div className='d-flex justify-content-center'>
+
+<a href='https://wa.me/5493415638192?text=Estoy%20interesado%20en%20comunicarme%20con%20vos'rel="noopener noreferrer" target="_blank">
 <div className='p-3 headerIcons '><SiWhatsapp/></div>
+</a>
+
+<a href='https://github.com/matias798' rel="noopener noreferrer" target="_blank">
 <div className='p-3 headerIcons '><SiGithub/></div>
-<div className='p-3 headerIcons  '><SiGmail/></div>
+</a>
+         
+
+<div className='p-3 headerIcons' onClick={copyToClipboard} ><SiGmail/></div>
+
+
+<a href='https://www.linkedin.com/feed/' rel="noopener noreferrer" target="_blank">
+
 <div className='p-3 headerIcons  '><TiSocialLinkedin/></div> 
+</a>
+
 </div>
 {/* /Icons */}
 
@@ -57,8 +97,16 @@ function Header() {
 </div>
 {/* /Buttons */}
 
-</div>
+{/* text to copy when you click the email button */}
+<form>
+        <textarea className='textareaHeader'
+        readOnly
+          ref={textAreaRef}
+          value='matiasquiroga584@gmail.com'
+        />
+      </form>
 
+</div>
 
 
 

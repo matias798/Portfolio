@@ -1,4 +1,6 @@
-
+.textareaHeader{
+    opacity: 0.0;
+}
 
 .Background{
     display: flex;

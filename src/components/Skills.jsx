@@ -31,7 +31,7 @@ function Skills() {
 
 
 <div className=' rounded h-100'>
-<h3 className=' skillsTitle'>skills</h3> 
+<h3 className=' skillsTitle'>Conocimientos</h3> 
 
   
       <div className='d-flex justify-content-center m-3'>
@@ -54,6 +54,8 @@ function Skills() {
      </div>
 
     </IconContext.Provider>
+
+
     </div>
   );
 }
