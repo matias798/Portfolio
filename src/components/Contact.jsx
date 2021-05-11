@@ -1,5 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2'
 
 function Contact() {
 
@@ -8,8 +9,18 @@ function Contact() {
 
     emailjs.sendForm('service_7gn2tfj', 'template_q2bjryy', e.target, 'user_3YMrfoLjO2lTYtxPe25n9')
       .then((result) => {
-          console.log(result.text);
-      }, (error) => {
+
+        Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: 'El mensaje fue enviado!',
+          showConfirmButton: false,
+          timer: 1500
+        })
+      
+      
+      
+        }, (error) => {
           console.log(error.text);
       });
   }
