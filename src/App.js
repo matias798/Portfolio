@@ -19,6 +19,7 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 function App() {
 
 const [loading,setloading]=useState(false);
+
 if (loading){
   return( <Loading/>)
 }
