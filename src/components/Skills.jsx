@@ -23,7 +23,7 @@ function Skills() {
   return (
     <div id ='Skills'className='d-flex justify-content-around flex-wrap mt-4'>
 
-       <div ><img src={SkillsImage} className='skillImage' alt="logo" /> </div>
+       <div ><img src={SkillsImage} className='skillImage rounded' alt="logo" /> </div>
 
 
 

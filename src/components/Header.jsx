@@ -9,6 +9,7 @@ import Swal from 'sweetalert2'
  import { TiSocialLinkedin } from "react-icons/ti";
 
 /* /Icons*/
+import 'animate.css'
 
 
 
@@ -47,7 +48,7 @@ function Header() {
 
   return ( 
 
-  <div id='Home' className=' Background HeaderImage'>
+  <div id='Home' className='animate__animated animate__backInUp  Background HeaderImage'>
 
 
   <div className='headerText' >
