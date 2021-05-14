@@ -26,42 +26,16 @@ background-size: cover;
 }
 .headerIcons{
 height: 2.5em;
-
-}
-
-    .white:hover{
-
-        font-weight:500;
-        color:#2E86C1;
-    border-color:#F0F3F4 ;
-    background-color: aliceblue;
-
-    }
-
-
-
-
-
- 
-.LinkedIN{
-color: #2E86C1;
+cursor: pointer;
 }
 
 @media(max-width:640px){
-
-
-
-
-
-
 .Background{
     padding-bottom: 8%;
 
 }
 .HeaderImage{
     background-size: cover;
-padding-bottom: 70%;
-margin-bottom: 18%;
 }
 
 .headerText{

@@ -37,16 +37,16 @@ function Skills() {
       <div className='d-flex justify-content-center m-3'>
      <SiHeroku className='m-3 text-warning'/>
 
-     <SiGit  className='m-3 text-danger'/>
-     <SiBootstrap className='m-3 btn-primary' />
+     <SiGit id='git' className='m-3'/>
+     <SiBootstrap id='bootstrap' className='m-3 btn-primary' />
 
      </div>
 
       <div className='d-flex justify-content-center m-3'>
 
-     <SiNodeDotJs className='m-3 text-success' />
-     <SiMysql  className='m-3 text-info'/>
-     <SiReact  className='m-3 text-info'/>
+     <SiNodeDotJs id='node' className='m-3 ' />
+     <SiMysql  className='m-3 '/>
+     <SiReact id='React' className='m-3 '/>
 
      </div>
 

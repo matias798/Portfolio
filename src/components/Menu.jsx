@@ -16,15 +16,15 @@ function Menu() {
   <div className="collapse navbar-collapse " id="navbarText">
     <ul className=" navbar-nav mr-auto ">
       <li className="nav-item active">
-        <Link className="nav-link ml-1  " to="Home" spy={true} smooth={true}><h6><AiOutlineHome/></h6></Link>
+        <Link className="nav-link mx-2  " to="Home" spy={true} smooth={true}><h6><AiOutlineHome/></h6></Link>
 
       </li>
       <li className="nav-item">
-        <Link className="nav-link ml-1 " to="Portfolio" spy={true} smooth={true}><h6>Portfolio</h6></Link>
+        <Link className="nav-link mx-2 " to="Portfolio" spy={true} smooth={true}><h6>Portfolio</h6></Link>
      
       </li>
       <li className="nav-item">
-      <Link className="nav-link ml-1 " to="Skills" spy={true} smooth={true}><h6>Conocimientos</h6></Link>
+      <Link className="nav-link mx-2 " to="Skills" spy={true} smooth={true}><h6>Conocimientos</h6></Link>
  
       </li>
     </ul>
