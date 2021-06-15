@@ -1,45 +1,28 @@
-
-import React,{useState} from 'react';
+import React from "react";
 // local styles
-import './index.css';
+import "./index.css";
 
 // Components
 
-import Loading from './components/Loading';
-import Contact from './components/Contact';
-import Portfolio from './components/Portfolio';
-import Menu from './components/Menu';
-import Skills from './components/Skills';
-import Header from './components/Header';
+import Contact from "./components/Contact";
+import Portfolio from "./components/Portfolio";
+import NavBar from "./components/NavBar";
+import Skills from "./components/Skills";
+import Header from "./components/Header";
 
-// bootrap js
-import 'bootstrap/dist/js/bootstrap.min.js'
-
+// bootstrap js
+import "bootstrap/dist/js/bootstrap.min.js";
 
 function App() {
-
-const [loading,setloading]=useState(false);
-
-if (loading){
-  return( <Loading/>)
-}
-else {
-
-
-
   return (
     <div>
- <Menu />
- <Header />
-<Portfolio />
-      
-<Skills />
-<Contact />
-
-</div>
-
-)
-};
+      <NavBar />
+      <Header />
+      <Portfolio />
+      <Skills />
+      <Contact />
+    </div>
+  );
 }
 
 export default App;

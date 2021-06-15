@@ -1,46 +1,70 @@
-.textareaHeader{
-    opacity: 0.0;
+.textareaHeader {
+  opacity: 0;
 }
 
-.Background{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 13%;
-    background-image: linear-gradient(90deg, #07befa, #474cb1, #e51b75);
+.Background {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 13%;
+  
 }
 
-.HeaderImage{
-    background-image: url('https://res.cloudinary.com/dsoeo0zhi/image/upload/v1620708536/img_pnejgd.png');
-    background-color: linear-gradient(90deg, #07befa, #474cb1, #e51b75);
-background-attachment: scroll;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-
+.HeaderImage {
+  background-image: url("https://res.cloudinary.com/dsoeo0zhi/image/upload/v1620708536/img_pnejgd.png");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.headerText{
-    margin-top: 10%;
-    font-weight: 700;
-  font-family: 'Nunito', sans-serif;
-}
-.headerIcons{
-height: 2.5em;
-cursor: pointer;
+.headerText {
+  margin-top: 10%;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
 }
 
-@media(max-width:640px){
-.Background{
+/* Class for all the icons on header*/
+.IconsContainer {
+  color: #6f9b81;
+  background-color: #ffffff;
+  margin: 1em;
+  border-radius: 90%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/* Icons styles */
+.headerIcons {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/* Color of icons */
+#whatsapp {
+  color: #6f9b81;
+}
+#Github {
+  color: #17202a;
+}
+#Gmail {
+  color: #ba4a00;
+}
+#linkedIn {
+  color: #1a5276;
+}
+
+@media (max-width: 640px) {
+  .Background {
     padding-bottom: 8%;
-
-}
-.HeaderImage{
+  }
+  .HeaderImage {
     background-size: cover;
-}
+  }
 
-.headerText{
+  .headerText {
     padding-top: 15%;
     font-size: smaller;
-    font-weight: lighter
-}  
-    };
+    font-weight: lighter;
+  }
+}

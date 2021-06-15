@@ -109,8 +109,8 @@ function Portfolio() {
 ]
 
 return (
-    <div id="Portfolio" className='background '>
-<h3 className=' touppercase  text-info PortfolioTitle'>Portafolio</h3>
+    <div id="Portfolio " className='background '>
+<h3 className=' touppercase  text-info PortfolioTitle '>Portafolio</h3>
 
 <section className='portfolioSection '>
 

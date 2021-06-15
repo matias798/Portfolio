@@ -6,7 +6,8 @@ background-color: #FDFEFE;
 }
 
 .PortfolioTitle{
-  font-family: 'Nunito', sans-serif;
+font-family: 'Nunito', sans-serif;
+margin : 1em;
 text-align: center;
 font-weight: 700;
 }
