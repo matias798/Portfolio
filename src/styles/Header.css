@@ -5,59 +5,35 @@
 .Background {
   display: flex;
   justify-content: center;
-  padding-bottom: 13%;
-  
+  padding-bottom: 60vh;
+  background-color: #f0f6f8 !important;
 }
 
 .HeaderImage {
-  background-image: url("https://res.cloudinary.com/dsoeo0zhi/image/upload/v1620708536/img_pnejgd.png");
+  background-image: url("./../images/b.png");
   background-attachment: scroll;
+  background-color: #f0f6f8 !important;
+  background-position: right center;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
-
+.TextColorInHeader {
+  color: #caf0f8 !important;
+}
 .headerText {
-  margin-top: 10%;
+  position: relative;
+  top: 6em;
   font-weight: 700;
   font-family: "Nunito", sans-serif;
 }
 
-/* Class for all the icons on header*/
-.IconsContainer {
-  color: #6f9b81;
-  background-color: #ffffff;
-  margin: 1em;
-  border-radius: 90%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-/* Icons styles */
-.headerIcons {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-/* Color of icons */
-#whatsapp {
-  color: #6f9b81;
-}
-#Github {
-  color: #17202a;
-}
-#Gmail {
-  color: #ba4a00;
-}
-#linkedIn {
-  color: #1a5276;
+#DownloadButton {
+  color: #caf0f8;
+  background-color: #00b4d8;
 }
 
 @media (max-width: 640px) {
-  .Background {
-    padding-bottom: 8%;
-  }
+
   .HeaderImage {
     background-size: cover;
   }

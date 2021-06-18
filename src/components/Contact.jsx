@@ -2,6 +2,11 @@ import React from "react";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
 
+
+// Local styles
+import "./../styles/Contact.css";
+import "./../App.css";
+
 function Contact() {
   function sendEmail(e) {
     e.preventDefault(); //prevent default action from sending the form
@@ -33,12 +38,16 @@ function Contact() {
   }
 
   return (
-    <div id="Contact">
-      <form onSubmit={sendEmail}>
+    <div className="ContactBackgroundColor ">
+<div className="d-flex justify-content-center">
+
+<div className="arrow-down"></div>
+</div>
+ <form onSubmit={sendEmail}>
         {/* Form inputs */}
         <div className="form-group m-5">
           {/* Title of component */}
-          <h3 className="PortfolioTitle">Contactame!!</h3>
+          <h3 id="contactTitle">¡Contactame!</h3>
           {/* Title of component */}
 
           {/* Email */}
@@ -48,7 +57,7 @@ function Contact() {
               className="form-control"
               name="user_email"
               aria-describedby="emailHelp"
-              placeholder="Ingresa tu email"
+              placeholder="Email"
             />
           </div>
           {/* /Email */}
@@ -59,7 +68,7 @@ function Contact() {
               type="text"
               className="form-control"
               name="user_phone"
-              placeholder="Ingresa tu telefono"
+              placeholder="Telefono"
             />
           </div>
           {/* /Phone */}
@@ -70,7 +79,7 @@ function Contact() {
               type="text"
               className="form-control"
               name="name"
-              placeholder="Ingresa tu nombre completo"
+              placeholder="Nombre "
             />
           </div>
           {/* /Full name input */}
@@ -90,7 +99,7 @@ function Contact() {
 
           {/* Submit button */}
           <div className="d-flex justify-content-end">
-            <button className="btn btn-secondary m-3">Success</button>
+            <button className="btn btn-light m-3">Enviar</button>
           </div>
           {/* Submit button */}
         </div>

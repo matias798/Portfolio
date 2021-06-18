@@ -1,56 +1,101 @@
-.background{
+#PortfolioBackground{
     flex-wrap: wrap;
     height: 90%;
-background-color: #FDFEFE;
- margin-bottom: 7%;
+background-color: #ffff;
 }
 
 .PortfolioTitle{
+color:#00B4D8 !important;
 font-family: 'Nunito', sans-serif;
-margin : 1em;
 text-align: center;
 font-weight: 700;
-}
-
-.bottomTagg{
-
-    border-bottom: 15vh solid #3498DB;
-    border-left: 90vw solid transparent;
-    text-align: center;
-    flex-wrap: wrap;
-
 }
 
 
 .portfolioSection{
     display: flex;
-    justify-content: space-around;
+    justify-content: stretch ;
     flex-wrap: wrap;
     padding-bottom: 5%;
+    margin: 2em;
 }
 
-
+.imageContainer{
+    padding:1em;
+}
 .image{
     cursor: pointer;
     border-radius: 20px;
-    max-width: 250px;
-    height:200px ;
+    max-width: 44vw;
+    height:50vh ;
     opacity: 0.9;
-    margin-top: 8%;
+    margin: 0.4rem;
 }
 
 .image:hover,.image:focus{
     opacity: 1;
-    transform: scale(1.1); 
     transition: 0.7s ease;
 }
 
+.NavyBlue{
+    background-color: #90E0EF!important;
 
-
-
-@media (max-width: 640px) {
-    .background{
-        padding-top: 4vh;
+    color:#00B4D8;
     }
+    .StarBlue{
+    background-color: #CAF0F8;
+    color:#00B4D8;
+    }
+    #moreInfo{
+        color:#00b4d8;
+        cursor: pointer;
+    }
+    #moreInfo:hover{
+        color:red!;
+        cursor: pointer;
+    }
+
+/* sweet alert styles of buttons */
+
+/* button that redirects to website */
+
+.buttonWebsite{
+    background-color: #00B4D8!important;
+    color: #ffffff !important;
+    margin-left:1rem ;
+}
+
+/* button that redirects to GitHub */
+
+.buttonGitHub{
+    color: #00B4D8!important;
+}
+@media (max-width: 640px) {
+   
+    #PortfolioBackground{
+        padding-top: 4vh;
+        background-color: #f0f6f8ff;
+
+    }
+
+    .image{
+       
+        max-width: 250px;
+        height:200px ;
+       
+    }
+
+    .portfolioSection{
+        display: flex;
+        justify-content: center ;
+    }
+    .NavyBlue,.StarBlue{
+        background-color: #ffff !important;
+        }
+
+        .buttonWebsite{
+            margin-left:0.5rem ;
+        }
+
   }
 

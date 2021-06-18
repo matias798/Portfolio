@@ -2,3 +2,43 @@
 .nav-item{
   font-family: 'Nunito', sans-serif;
 }
+
+.NavbarBackgroundColor{
+  background-color: #00b4d8;
+}
+
+/* Class for all the icons on header*/
+.IconsContainer {
+  opacity: 0.8;
+  color: #ffffff;
+  margin: 0.5em;
+  border-radius: 90%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.IconsContainer:hover {
+  opacity: 0.9;
+}
+/* Icons styles */
+.headerIcons {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#containerOfAllIcons{
+display: flex;
+justify-content:center;
+
+}
+
+
+@media (max-width: 640px) {
+
+#containerOfAllIcons{
+
+margin: 0!important;}
+}

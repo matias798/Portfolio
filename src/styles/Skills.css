@@ -1,20 +1,28 @@
-.skillsTitle{
-  font-family: 'Nunito', sans-serif;
+#SkillsBackgroundColor {
+  background-color: #00b4d8;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+}
+.skillsTitle {
+  font-family: "Nunito", sans-serif;
   text-align: center;
   font-weight: 700;
 }
 
-.skillImage{
-    max-width: 100%;
+.skillImage {
+  max-width: 100%;
 }
 
-#git{color: rgba(200, 20, 20, 0.808);}
+#git,
+#MySql,
+#CSS {
+  color: #90e0ef;
+}
 
-
-
-#bootstrap{ background-color:  white ;
-color:  #7d3c98 }
-
-#node{color:  #58d68d }
-
-#React{color:  #1f618d  ;}
+#bootstrap,
+#node,
+#firebase,
+#React,
+#heroku {
+  color: #0077b6;
+}
