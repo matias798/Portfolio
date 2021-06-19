@@ -1,100 +1,97 @@
-#PortfolioBackground{
-    flex-wrap: wrap;
-    height: 90%;
-background-color: #ffff;
+#PortfolioBackground {
+  flex-wrap: wrap;
+  height: 90%;
+  background-color: #ffff;
 }
 
-.PortfolioTitle{
-color:#00B4D8 !important;
-font-family: 'Nunito', sans-serif;
-text-align: center;
-font-weight: 700;
+.PortfolioTitle {
+  color: #00b4d8 !important;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-weight: 700;
 }
 
-
-.portfolioSection{
-    display: flex;
-    justify-content: stretch ;
-    flex-wrap: wrap;
-    padding-bottom: 5%;
+.portfolioSection {
+  display: flex;
+  justify-content: stretch;
+  flex-wrap: wrap;
+  padding-bottom: 5%;
 }
 
-.imageContainer{
-    padding:1.6em;
+.imageContainer {
+  padding: 1.6em;
 }
-.image{
-    cursor: pointer;
-    border-radius: 20px;
-    max-width: 42vw;
-    height:50vh ;
-    opacity: 0.9;
-    margin: 0.4rem;
-}
-
-.image:hover,.image:focus{
-    opacity: 1;
-    transition: 0.7s ease;
+.image {
+  cursor: pointer;
+  border-radius: 20px;
+  max-width: 42vw;
+  height: 50vh;
+  opacity: 0.9;
+  margin: 0.4rem;
 }
 
-.NavyBlue{
-    background-color: #90E0EF!important;
+.image:hover,
+.image:focus {
+  opacity: 1;
+  transition: 0.7s ease;
+}
 
-    color:#00B4D8;
-    }
-    .StarBlue{
-    background-color: #CAF0F8;
-    color:#00B4D8;
-    }
-    #moreInfo{
-        color:#00b4d8;
-        cursor: pointer;
-    }
-    #moreInfo:hover{
-        color:red!;
-        cursor: pointer;
-    }
+.NavyBlue {
+  background-color: #90e0ef !important;
 
-/* sweet alert styles of buttons */
+  color: #00b4d8;
+}
+.StarBlue {
+  background-color: #caf0f8;
+  color: #00b4d8;
+}
+#moreInfo {
+  color: #03045e !important;
+  cursor: pointer;
+}
+#moreInfo:hover {
+  cursor: pointer;
+}
+
+.btn-color {
+  background: #00b4d8;
+  border: #00b4d8;
+} /* sweet alert styles of buttons */
 
 /* button that redirects to website */
 
-.buttonWebsite{
-    background-color: #00B4D8!important;
-    color: #ffffff !important;
-    margin-left:1rem ;
+.buttonWebsite {
+  background-color: #00b4d8 !important;
+  color: #ffffff !important;
+  margin-left: 1rem;
 }
 
 /* button that redirects to GitHub */
 
-.buttonGitHub{
-    color: #00B4D8!important;
+.buttonGitHub {
+  color: #00b4d8 !important;
 }
 @media (max-width: 640px) {
-   
-    #PortfolioBackground{
-        padding-top: 4vh;
-        background-color: #f0f6f8ff;
-
-    }
-
-    .image{
-       
-        max-width: 250px;
-        height:200px ;
-       
-    }
-
-    .portfolioSection{
-        display: flex;
-        justify-content: center ;
-    }
-    .NavyBlue,.StarBlue{
-        background-color: #ffff !important;
-        }
-
-        .buttonWebsite{
-            margin-left:0.5rem ;
-        }
-
+  #PortfolioBackground {
+    padding-top: 4vh;
+    background-color: #f0f6f8ff;
   }
 
+  .image {
+    max-width: 250px;
+    height: 200px;
+  }
+
+  .portfolioSection {
+    display: flex;
+    justify-content: center;
+  }
+  .NavyBlue,
+  .StarBlue {
+    background-color: #ffff !important;
+  }
+
+  .buttonWebsite {
+    margin-left: 0.5rem;
+  }
+}

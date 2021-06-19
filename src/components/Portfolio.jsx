@@ -5,7 +5,6 @@ import Swal from "sweetalert2"; //importing sweet alert
 // Local style
 import "./../styles/Portfolio.css";
 
-
 const Portfolio = ({ Portfolio }) => (
   <div id="PortfolioBackground ">
     {/*  Title  */}
@@ -32,7 +31,7 @@ const Portfolio = ({ Portfolio }) => (
             />
           </a>
 
-          {/* Know more about the website text, on click shows more info*/}
+          {/* Know more about the website button, on click shows more info*/}
           <div
             onClick={() => {
               modal(Portfolio);
@@ -40,7 +39,7 @@ const Portfolio = ({ Portfolio }) => (
             id="moreInfo"
             className="title-text text-center p-2 "
           >
-            <h5>+ Saber mas</h5>
+            <button className="btn btn-primary btn-color">Saber mas</button>
           </div>
         </div>
       ))}
@@ -94,7 +93,6 @@ function modal(Portfolio) {
       }
     });
 }
-
 
 // Function that handles the state from the store
 const mapStateToProps = (state) => ({
