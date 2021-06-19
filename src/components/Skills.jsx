@@ -1,6 +1,8 @@
 import React from "react";
+/*local styles */
 import "./../styles/Skills.css";
 
+/* Local images*/
 import SkillsImage from "./../images/skills.gif";
 
 // Booststrap styles
@@ -28,31 +30,44 @@ function Skills() {
       id="SkillsBackgroundColor"
       className="d-flex justify-content-around flex-wrap mt-4"
     >
-      <div>
-        
+      <div id="skillImageContainer">
         <img src={SkillsImage} className="skillImage rounded" alt="logo" />{" "}
       </div>
 
+{/* The icon text provider gives global styles for all the icons */}
       <IconContext.Provider value={{ size: "4em", padding: "2" }}>
         <div className=" rounded h-100">
-          <h3 className=" PortfolioTitle ">Conocimientos</h3>
+          {/* Title */}
+          <div>
+            <h3 className=" skillsTittle ">Conocimientos</h3>
+          </div>
+          {/* /Title */}
 
+          {/* First line of icons */}
           <div className="d-flex justify-content-center m-3">
             <SiNodeDotJs id="node" className="m-3 " />
-            <SiMysql id ="MySql" className="m-3 " />
+            <SiMysql id="MySql" className="m-3 " />
             <SiReact id="React" className="m-3 " />
           </div>
+          {/* /First line of icons */}
+
+          {/* Second line of icons */}
 
           <div className="d-flex justify-content-center m-3">
             <AiFillHtml5 id="git" className="m-3" />
             <BsBootstrapFill id="bootstrap" className="m-3" />
-            <SiCss3 id ="CSS"className="m-3 " />
+            <SiCss3 id="CSS" className="m-3 " />
           </div>
+          {/* /Second line of icons */}
+
+          {/* Third line of icons */}
           <div className="d-flex justify-content-center m-3">
             <SiHeroku id="heroku" className="m-3 " />
             <SiGit id="git" className="m-3 " />
             <SiFirebase id="firebase" className="m-3 " />
           </div>
+          {/* Third line of icons */}
+
         </div>
       </IconContext.Provider>
     </div>

@@ -5,21 +5,25 @@
 #aboutMeTextContainer {
   width: 40vw;
 }
+
+#aboutMeTitle {
+  margin-bottom: 1rem;
+  color: #0096c7;
+}
+
 #aboutMeText {
+  font-family: "Nunito", sans-serif;
   width: 40vw;
   height: 70%;
-  display: flex;
-  justify-content: center;
   align-items: center;
   text-align: center;
   padding: 2em !important;
   margin: 2em !important;
   color: #00b4d8;
-  align-self: center!important;
-
+  align-self: center !important;
 }
 .AboutMeImage {
-  max-width: 70rem;
+  max-width: 35rem;
 }
 
 @media (max-width: 640px) {
@@ -33,11 +37,10 @@
   .AboutMeImage {
     max-width: 15rem;
   }
-  
+
   #aboutMeText {
     text-align: center;
-  width: 80vw;
-
+    width: 80vw;
     margin: 0.1em;
   }
 }

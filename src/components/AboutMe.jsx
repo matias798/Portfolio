@@ -1,34 +1,47 @@
 import React from "react";
-import "./../styles/AboutMe.css";
 
+//Local image
 import SkillsImage from "./../images/Nerd.gif";
 
 // Booststrap styles
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // Local styles
-import "./../styles/Contact.css";
+import "./../styles/AboutMe.css";
+
 import "./../App.css";
 
-function Skills() {
+function AboutMe() {
   return (
-      <div id="aboutMeContainer">
-{/* Text */}
-<div id="aboutMeTextContainer ">
-    <div id="aboutMeText">Proactivo, con habilidades interpersonales que me permiten fácilmente adaptarme a grupos de trabajo. Actualmente me encuentro en búsqueda de nuevos desafíos que me permitan potenciar mi desarrollo profesional.
+    <div id="aboutMeContainer">
 
-    </div>
-    </div>
-{/* image */}
-<div >
-<img src={SkillsImage} className="AboutMeImage rounded mb-3" alt="logo" />{" "}
+      <div id="aboutMeTextContainer ">
+        {/* Text */}
+        <div id="aboutMeText">
+          <h3 id="aboutMeTitle"> Sobre mi</h3>
 
-</div>
-
-
+          <h5>
+            Proactivo, con habilidades interpersonales que me permiten
+            fácilmente adaptarme a grupos de trabajo. Actualmente me encuentro
+            en búsqueda de nuevos desafíos que me permitan potenciar mi
+            desarrollo profesional.
+          </h5>
       </div>
-   
+        </div>
+        {/* Text */}
+
+
+        {/* image */}
+        <div>
+          <img
+            src={SkillsImage}
+            className="AboutMeImage rounded mb-3"
+            alt="logo"
+          />
+        </div>
+        {/* /image */}
+    </div>
   );
 }
 
-export default Skills;
+export default  AboutMe;

@@ -3,6 +3,7 @@
 }
 
 #contactTitle {
+  
   color: #00b4d8;
   text-align: center;
 }
@@ -19,6 +20,8 @@
 input::placeholder,
 textarea::placeholder {
   color: #00b4d8 !important;
+  background-color: #F2FCFE !important;
+
   font-size: 1.2em;
   font-style: italic;
 }

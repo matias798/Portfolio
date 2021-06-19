@@ -17,16 +17,15 @@ font-weight: 700;
     justify-content: stretch ;
     flex-wrap: wrap;
     padding-bottom: 5%;
-    margin: 2em;
 }
 
 .imageContainer{
-    padding:1em;
+    padding:1.6em;
 }
 .image{
     cursor: pointer;
     border-radius: 20px;
-    max-width: 44vw;
+    max-width: 42vw;
     height:50vh ;
     opacity: 0.9;
     margin: 0.4rem;

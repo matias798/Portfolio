@@ -1,66 +1,73 @@
 import React from "react";
 
+/* icons component */
+import Icons from "./Icons";
 
 // Curriculum file route
 import curriculum from "./../files/cv-MatiasQuiroga.pdf";
 
-
-
-import { BsCloudDownload } from "react-icons/bs";
 /* /Icons*/
+import { BsCloudDownload } from "react-icons/bs"; //download icon
+import { RiArrowDropDownLine } from "react-icons/ri"; //arrow icon
 
-/* Imported for animating the header on load */
-import "animate.css";
-
-// Booststrap styles
+/* Booststrap styles */
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
+/* Animate.css */
+import "animate.css";
 
 // Local styles
 import "./../App.css";
 import "./../styles/Header.css";
 
 function Header() {
-
-
- 
   return (
     <div>
+      <div id="Home" className="  Background HeaderImage">
+        <div className="headerText animate__animated animate__backInUp">
+          {/* Name */}
+          <div>
+            <h1 className="title-text TextColorInHeader  text-center ">
+              Matias Quiroga
+            </h1>
+          </div>
+          {/* Name */}
 
-    <div
-      id="Home"
-      className="  Background HeaderImage"
-    >
-      <div className="headerText animate__animated animate__backInUp">
-        <div className="d-flex align-items-start" >
-        <h1 className="title-text TextColorInHeader  text-center ">Matias Quiroga</h1>
-        </div >
-        
-        <div >
-        <h4 className="title-text TextColorInHeader text-center">Desarrollador web Full Stack</h4>
-        </div >
+          {/* Job position */}
+          <div>
+            <h5 className="title-text TextColorInHeader text-center">
+              Desarrollador web Full Stack
+            </h5>
+          </div>
+          {/* Job position */}
 
-       
-        {/* Buttons */}
-        <div className="d-flex justify-content-center  pt-3">
+          {/* Icons component */}
+          <Icons />
+          {/* /Icons component */}
 
-          {/* Download cv button  */}
-          <a href={curriculum} download="cv-MatiasQuiroga">
+          {/* Buttons */}
+          <div className="d-flex justify-content-center  pt-3">
+            {/* Download cv button  */}
+            <a href={curriculum} download="cv-MatiasQuiroga">
+              <button
+                id="DownloadButton"
+                type="button"
+                className="btn btn-light "
+              >
+                <BsCloudDownload /> Curriculum vitae
+              </button>
+            </a>
+            {/* /Download cv button  */}
+          </div>
+          {/* /Buttons */}
 
-
-            <button id="DownloadButton" type="button" className="btn  btn-light ">
-              < BsCloudDownload /> Curriculum vitae
-            </button>
-          </a>
-          {/* /Download cv button  */}
+          {/* Down arrow */}
+          <div className=" arrow bounce">
+            <RiArrowDropDownLine />
+          </div>
+          {/* Down arrow */}
         </div>
-        {/* /Buttons */}
-
-       
-      </div> 
-      <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    </div>
+      </div>
     </div>
   );
 }

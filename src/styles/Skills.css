@@ -3,14 +3,14 @@
   padding-bottom: 10vh;
   padding-top: 10vh;
 }
-.skillsTitle {
-  font-family: "Nunito", sans-serif;
+.skillsTittle {
+  color: #CAF0F8;
   text-align: center;
   font-weight: 700;
 }
 
 .skillImage {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 #git,
@@ -25,4 +25,13 @@
 #React,
 #heroku {
   color: #0077b6;
+}
+
+
+
+@media (max-width: 640px) {
+
+  #skillImageContainer{
+    display: flex;
+justify-content: center;  }
 }
