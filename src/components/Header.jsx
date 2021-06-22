@@ -28,7 +28,7 @@ function Header() {
           {/* Name */}
           <div>
             <h1 className="title-text TextColorInHeader  text-center ">
-              Matias Quiroga
+            Matías Quiroga
             </h1>
           </div>
           {/* Name */}

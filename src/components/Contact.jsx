@@ -17,7 +17,7 @@ function Contact() {
         {/* Form inputs */}
         <div className="form-group mx-5 mt-5">
           {/* Title of component */}
-          <h3 id="contactTitle">¡Contactame!</h3>
+          <h3 id="contactTitle">¡Contáctame!</h3>
           {/* Title of component */}
 
           {/* Email */}

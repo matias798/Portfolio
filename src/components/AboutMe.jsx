@@ -18,7 +18,7 @@ function AboutMe() {
       <div id="aboutMeTextContainer ">
         {/* Text */}
         <div id="aboutMeText">
-          <h3 id="aboutMeTitle"> Sobre mi</h3>
+          <h2 id="aboutMeTitle"> Sobre mi</h2>
 
           <h5>
             Proactivo, con habilidades interpersonales que me permiten

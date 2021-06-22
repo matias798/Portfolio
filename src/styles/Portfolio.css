@@ -20,6 +20,7 @@
 
 .imageContainer {
   padding: 1.6em;
+  opacity: 1!important;
 }
 .image {
   cursor: pointer;
@@ -80,6 +81,7 @@
   .image {
     max-width: 250px;
     height: 200px;
+    opacity: 1;
   }
 
   .portfolioSection {
@@ -88,8 +90,11 @@
   }
   .NavyBlue,
   .StarBlue {
-    background-color: #ffff !important;
+    margin-top:1rem;
+    background-color: #E5F8FC !important;
+    border-radius:4px;
   }
+  
 
   .buttonWebsite {
     margin-left: 0.5rem;

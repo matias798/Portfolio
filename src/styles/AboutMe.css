@@ -8,7 +8,10 @@
 
 #aboutMeTitle {
   margin-bottom: 1rem;
-  color: #0096c7;
+  background-color: #0096c7;
+  color: #ffffff;
+  width: 50%;
+  font-family: 'Viaoda Libre', cursive;
 }
 
 #aboutMeText {
@@ -33,6 +36,14 @@
   #aboutMeTextContainer {
     width: 100vw;
   }
+
+#aboutMeTitle {
+width:100%;
+color: #00b4d8;
+background-color: #ffffff;
+
+
+}
 
   .AboutMeImage {
     max-width: 15rem;

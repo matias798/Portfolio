@@ -3,7 +3,6 @@
 }
 
 #contactTitle {
-  
   color: #00b4d8;
   text-align: center;
 }
@@ -17,7 +16,7 @@
   border-color: #00b4d8 transparent transparent transparent;
 }
 /* used to change the colors of placeholders */
-input::placeholder,
+input::placeholder,.form-control,
 textarea::placeholder {
   color: #00b4d8 !important;
   background-color: #F2FCFE !important;

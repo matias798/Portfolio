@@ -22,7 +22,7 @@ const Portfolio = ({ Portfolio }) => (
           <a
             className="d-flex justify-content-center"
             href={Portfolio.urlWeb}
-            target="a_blank"
+            target="_blank"
           >
             <img
               className={`image rounded slider__content--item `}
@@ -39,7 +39,7 @@ const Portfolio = ({ Portfolio }) => (
             id="moreInfo"
             className="title-text text-center p-2 "
           >
-            <button className="btn btn-primary btn-color">Saber mas</button>
+            <button className="btn btn-primary btn-color">Saber más</button>
           </div>
         </div>
       ))}
